@@ -1,0 +1,12 @@
+# Naresh Choyal
+
+dictt={"name":"naresh","rollno":"12"} #dictionary
+user_input=input("enter the value:") 
+if user_input in dictt.values():
+    print("Value is availabel")
+    for i in dictt: 
+        if user_input==dictt[i]:
+            print(f"Key = {i} ,Value = {dictt[i]}")
+            # print("key",i,"value",dictt[i])
+else:
+    print('Value not available')
